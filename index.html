@@ -33,12 +33,12 @@
         }
     </style>   
 </head>
-<body class="manrope px-6 lg:px-0">
+<body class="manrope px-6 lg:px-0 bg-bgprimary">
     <!-- header section -->
     <header class="max-w-screen-2xl mx-auto border border-red-700 ">
         <!-- nav section -->
         <nav class="max-w-screen-xl py-12 mx-auto border border-red-700 ">
-            <div class="navbar bg-base-100">
+            <div class="navbar ">
                 <div class=" navbar-start">
                   <a class=" text-xl flex items-center"><span class="bg-btnprimary py-1 px-2 rounded-full mr-1 "><i class="fa-solid fa-arrow-right -rotate-45"></i></span> <span  class="text-4xl font-extrabold">Rinterio</span></a>
                 </div>
@@ -59,7 +59,7 @@
                     </div>
     
                     <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-white rounded-full">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             class="h-5 w-5 text-xl"
@@ -87,12 +87,15 @@
                         </ul>
                     </div>
                 </div>
-                <div class="">
-                    
-                </div>
               </div>
         </nav>
-
+        <!-- banner section -->
+         <section class="max-w-screen-xl py-12 mx-auto bg-gradient-to-b from-bgprimary to-white border border-red-700 text-center pb-24 rounded">
+            <img src="assets/banner.png" alt="" class="mx-auto">
+            <h1 class="text-3xl md:text-4xl lg:text-7xl font-extrabold">A barn house of this design has a striking appearance</h1>
+            <p class=" text-base font-medium text-gray-500 max-w-screen-lg my-5 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <button class="btn bg-btnsecondary  px-6 rounded-3xl"><span class="text-xl font-bold">View Details</span><span class="bg-btnprimary py-2 px-2 rounded-full"><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
+         </section>
 
     </header>
 
