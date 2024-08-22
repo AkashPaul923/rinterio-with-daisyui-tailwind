@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,6 +19,9 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                btnprimary: '#ABEF5F',
+                btnsecondary: '#ABEF5F33',
+                bgprimary: '#F4F4F4',
               }
             }
           }
@@ -30,7 +33,78 @@
         }
     </style>   
 </head>
-<body>
+<body class="manrope px-6 lg:px-0">
+    <!-- header section -->
+    <header class="max-w-screen-2xl mx-auto border border-red-700 ">
+        <!-- nav section -->
+        <nav class="max-w-screen-xl py-12 mx-auto border border-red-700 ">
+            <div class="navbar bg-base-100">
+                <div class=" navbar-start">
+                  <a class=" text-xl flex items-center"><span class="bg-btnprimary py-1 px-2 rounded-full mr-1 "><i class="fa-solid fa-arrow-right -rotate-45"></i></span> <span  class="text-4xl font-extrabold">Rinterio</span></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-extrabold">Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden lg:flex">
+                        <a class="btn bg-white rounded-full text-lg"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a class="btn bg-white rounded-full text-lg mx-3"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a class="btn bg-btnprimary rounded-3xl"><span class="text-xl font-extrabold">Book Consult</span> <span class="py-2 px-2 rounded-full bg-black text-white"><i class="fa-solid fa-arrow-right -rotate-45"></i></span></a>
+                    </div>
+    
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5 text-xl"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow hidden">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><a>Search</a></li>
+                            <li><a>cart</a></li>
+                            <li><a>Book Consult</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    
+                </div>
+              </div>
+        </nav>
+
+
+    </header>
+
+    <!-- main   section -->
+    <main>
+
+    </main>
+     
+     <!-- footer section -->
+    <footer>
+
+    </footer>
     
 </body>
 </html>
